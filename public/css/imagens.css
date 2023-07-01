@@ -1,0 +1,18 @@
+img{
+    width: 200px;
+}
+
+.organizar{
+    display: flex;
+    flex-direction: row;
+}
+
+.vermelho{
+    border: 3px red solid;    
+}
+.azul{
+    border: 3px blue solid;    
+}
+.verde{
+    border: 3px green solid;    
+}
