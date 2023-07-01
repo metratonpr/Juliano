@@ -1,0 +1,67 @@
+.negrito{
+    font-weight: bold ;
+}
+.italico{
+    font-style: italic;
+}
+.sublinhado{
+    text-decoration: underline;
+}
+.texto-padrao{
+    font: bold 40px 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande',   'Lucida Sans', Arial, sans-serif;
+}
+.coresfonte{
+    color: green;
+}
+
+.tamanhofonte{
+    /*
+    font-size: 16px;
+    */
+    /*
+    font-size: 200%;
+    */
+    /*
+    font-size: 2em - Elemento;
+    */
+    /*
+    font-size: 2rem - Raiz;
+    */
+    font-size: 30px;
+}
+
+
+
+.tamanhofonteh2{
+    font-size: 3em;
+}
+
+
+
+.borda{
+    margin:2px 3px 10px 5px;
+    /* border: 5px orange dotted; */
+    border-color: red green ;
+    border-width: 10px 8px 6px 3px;
+    border-style: solid dotted dashed solid;
+}
+
+div{
+    background-color: blue;
+}
+h1, h2, h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.classe1{
+    background-color: chartreuse;
+}
+.classe2{
+    background-color: blueviolet;
+}
+#paragrafo{
+    color: cornflowerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
