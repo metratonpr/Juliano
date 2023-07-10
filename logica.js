@@ -31,6 +31,8 @@ let mutiplicar = 1 * 2
 console.log(mutiplicar)
 
 let exponencial = Math.pow(2, 2)
+// exponecial = a ^ b
+// exponecial = a ** b
 console.log(exponencial)
 
 let randomico = Math.random()
@@ -124,3 +126,4 @@ else if(salario >= 3000){
 }
 //Python não tem chaves e usa : com identação
 //else if usa elif
+
