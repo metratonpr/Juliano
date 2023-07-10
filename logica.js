@@ -127,3 +127,7 @@ else if(salario >= 3000){
 //Python não tem chaves e usa : com identação
 //else if usa elif
 
+
+
+
+tes
