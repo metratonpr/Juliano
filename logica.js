@@ -119,15 +119,77 @@ if (salario >= 5000) {
 if (salario >= 5000) {
     console.log("Rico")
 }
-else if(salario >= 3000){
+else if (salario >= 3000) {
     console.log("Remediado")
-}else {
+} else {
     console.log("Quebrado")
 }
 //Python não tem chaves e usa : com identação
 //else if usa elif
 
+//Função ou Metodo é usado para reduzir a quantidade 
+//de codigo digitada ou realizar um processo pre definido
+//pode ou não receber parametros
+function imprimir() {
+    console.log("Ola mundo!")
+}
+//Como chamar uma função
+imprimir()
 
+function imprircomparametro(nome) {
+    console.log("Ola " + nome + ", seja bem vindo!")
+}
 
+imprircomparametro("Jose")
 
-tes
+//Função com retorno
+function area(base, altura) {
+    return base * altura
+}
+let figura = area(10, 15)
+console.log(figura)
+
+function boasvindas(nome, nascimento, atual) {
+    let idade = atual - nascimento;
+    console.log('Ola ' + nome + ", voce tem " + idade + " anos.")
+}
+
+boasvindas("Joao", 1981, 2023)
+
+function juros(capital, taxa, parcelas) {
+    return capital * Math.pow(1 + (taxa / 100), parcelas);
+}
+
+let valor = juros(1000, 0.65, 120)
+valor = Number(valor).toFixed(2)
+console.log(valor)
+console.log(valor / 120)
+
+// Lacos de repeticao
+//enquanto for positivo faça algo
+let ind = 0
+let dec = 10
+while (ind < 10) {
+    console.log(ind, dec)
+    ind++
+    dec--
+}
+
+//for voce ja define o valor de parada
+for (let index = 0; index < 10; index++) {
+    console.log(index)
+}
+
+function tabuada(multiplicador, multiplicando) {
+    let ind = 0
+    while (ind <= multiplicando){
+        let resultado = multiplicador * ind        
+        console.log(multiplicador + " x "  + ind + " = " + resultado)
+        ind++
+    }
+}
+
+for (let index = 0; index <= 10; index++) {
+    tabuada(index,10)
+    console.log("")
+}
