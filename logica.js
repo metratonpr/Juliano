@@ -193,3 +193,37 @@ for (let index = 0; index <= 10; index++) {
     tabuada(index,10)
     console.log("")
 }
+
+
+let arr_1 = [0,1,2,3,4,5]
+    arr_1 = [3,4,8,6,9,7]
+
+for (let index = 0; index < arr_1.length; index++) {   
+    console.log(arr_1[index])
+}
+
+console.log(arr_1[3])
+
+let arr_vazio = []
+console.log(arr_vazio)
+
+arr_vazio.push(15)
+arr_vazio.push(30)
+arr_vazio.push(45)
+console.log(arr_vazio)
+
+arr_vazio.pop(1)
+console.log(arr_vazio)
+
+//dicionario
+let pessoa = { nome: "Joao", idade: 42, altura:1.83}
+console.log(pessoa)
+console.log(pessoa.nome)
+let pessoa2 = { nome: "Maria", idade: 36, altura:1.75}
+let pessoas = []
+pessoas.push(pessoa)
+pessoas.push(pessoa2)
+console.log(pessoas)
+console.log(pessoas[1].altura)
+let nomes = pessoas.map(pessoa => pessoa.nome)
+console.log(nomes)
