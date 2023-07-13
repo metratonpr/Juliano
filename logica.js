@@ -299,7 +299,7 @@ class ContaBancaria {
     sacar(valor) {
         if (valor > 0) {
             if (this.saldo > valor) {
-                this.saldo -= valor 
+                this.saldo -= valor
             } else {
                 console.log("Err: Saldo Insuficiente!")
             }
@@ -317,7 +317,7 @@ class ContaBancaria {
 let bb = new ContaBancaria(100)
 
 bb.depositar(200)
-bb.saque(-100)
-bb.saque(250)
+bb.sacar(-100)
+bb.sacar(250)
 bb.extrato()
 bb.sacar(70)
