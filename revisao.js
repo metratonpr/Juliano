@@ -18,6 +18,6 @@ function calcularFactorial(numero) {
     }
 }
 
-let numero = 5
+let numero = 10
 let fat = calcularFactorial(numero)
 imprimir("O fatorial de "+numero+" e "+fat)
